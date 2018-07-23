@@ -1,0 +1,15 @@
+PODS:
+  - EasyAnimation (2.0.2)
+  - XLPagerTabStrip (8.0.0)
+
+DEPENDENCIES:
+  - EasyAnimation
+  - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  EasyAnimation: 977ef673efe8ce62447807eedb380a77b189dc80
+  XLPagerTabStrip: d1ab378af0923320ec0b5eab11d7b2f803d31261
+
+PODFILE CHECKSUM: 11e21bc1056a0840841501d21a785e95a90dae55
+
+COCOAPODS: 1.4.0
