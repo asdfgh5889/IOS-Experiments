@@ -9,4 +9,4 @@ In the experiments folder you can find:
 - Network: Some of mine network controller which can work with json and http request.
 - LoaderButton: Button with loader, when button is pressed it will show loader inside of button.
 
-Not best implementations, but I keep imporving them all.
+Not best implementations, but I keep imporving them all. These all just experiments of mine, when they will be ready I will create seperate repos for each of them.
