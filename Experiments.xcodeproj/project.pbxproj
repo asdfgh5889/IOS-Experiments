@@ -23,9 +23,11 @@
 		273945D020E237CC00F147BA /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273945CF20E237CC00F147BA /* Stepper.swift */; };
 		273CD66220D924DD00F291F8 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273CD66120D924DD00F291F8 /* Constraints.swift */; };
 		2740576D20E38FD500E02F12 /* LoaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2740576C20E38FD500E02F12 /* LoaderButton.swift */; };
+		2741186E2109C91C00065935 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2741186D2109C91C00065935 /* RangeSlider.swift */; };
 		2743302020E414AE00DCD31A /* WinLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743301F20E414AE00DCD31A /* WinLoader.swift */; };
 		274ACB1320BF0DDF00447D12 /* LabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274ACB1220BF0DDF00447D12 /* LabelController.swift */; };
 		274DD42D204D4F0E003F2517 /* ImageScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DD42C204D4F0E003F2517 /* ImageScroll.swift */; };
+		275E84142105F199002C9C7F /* SineLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E84132105F199002C9C7F /* SineLoader.swift */; };
 		275F48A620E5342F00CEA630 /* ViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F48A520E5342F00CEA630 /* ViewLoader.swift */; };
 		2772DEEA20E91CA000694CAA /* ShowAnywhere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772DEE920E91CA000694CAA /* ShowAnywhere.swift */; };
 		2774081F2052D63800F6FD94 /* SlideZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2774081E2052D63800F6FD94 /* SlideZoom.swift */; };
@@ -73,9 +75,11 @@
 		273945CF20E237CC00F147BA /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
 		273CD66120D924DD00F291F8 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		2740576C20E38FD500E02F12 /* LoaderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderButton.swift; sourceTree = "<group>"; };
+		2741186D2109C91C00065935 /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
 		2743301F20E414AE00DCD31A /* WinLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLoader.swift; sourceTree = "<group>"; };
 		274ACB1220BF0DDF00447D12 /* LabelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelController.swift; sourceTree = "<group>"; };
 		274DD42C204D4F0E003F2517 /* ImageScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScroll.swift; sourceTree = "<group>"; };
+		275E84132105F199002C9C7F /* SineLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineLoader.swift; sourceTree = "<group>"; };
 		275F48A520E5342F00CEA630 /* ViewLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoader.swift; sourceTree = "<group>"; };
 		2772DEE920E91CA000694CAA /* ShowAnywhere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAnywhere.swift; sourceTree = "<group>"; };
 		2774081E2052D63800F6FD94 /* SlideZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideZoom.swift; sourceTree = "<group>"; };
@@ -153,9 +157,9 @@
 		270EFE631FF773C9006EDA57 /* Experiments */ = {
 			isa = PBXGroup;
 			children = (
+				2794E3712105F10100B71255 /* Decorations */,
 				27010F8F20F766DA00D5176A /* Network */,
 				2772DEE820E91C8C00694CAA /* ShowAnywhere */,
-				2743301E20E414A200DCD31A /* WinLoader */,
 				2740576B20E38FBD00E02F12 /* Loader Button */,
 				273945CE20E237AB00F147BA /* Stepper */,
 				274ACB1120BF0D6100447D12 /* Label Icon */,
@@ -222,6 +226,14 @@
 			path = "Loader Button";
 			sourceTree = "<group>";
 		};
+		2741186C2109C90D00065935 /* RangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				2741186D2109C91C00065935 /* RangeSlider.swift */,
+			);
+			path = RangeSlider;
+			sourceTree = "<group>";
+		};
 		2743301E20E414A200DCD31A /* WinLoader */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,12 +260,30 @@
 			path = "Label Icon";
 			sourceTree = "<group>";
 		};
+		275E84122105F183002C9C7F /* SineLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				275E84132105F199002C9C7F /* SineLoader.swift */,
+			);
+			path = SineLoaders;
+			sourceTree = "<group>";
+		};
 		2772DEE820E91C8C00694CAA /* ShowAnywhere */ = {
 			isa = PBXGroup;
 			children = (
 				2772DEE920E91CA000694CAA /* ShowAnywhere.swift */,
 			);
 			path = ShowAnywhere;
+			sourceTree = "<group>";
+		};
+		2794E3712105F10100B71255 /* Decorations */ = {
+			isa = PBXGroup;
+			children = (
+				2741186C2109C90D00065935 /* RangeSlider */,
+				275E84122105F183002C9C7F /* SineLoaders */,
+				2743301E20E414A200DCD31A /* WinLoader */,
+			);
+			path = Decorations;
 			sourceTree = "<group>";
 		};
 		4DB19635159D4CD1B72C4833 /* Pods */ = {
@@ -579,12 +609,14 @@
 				2740576D20E38FD500E02F12 /* LoaderButton.swift in Sources */,
 				2772DEEA20E91CA000694CAA /* ShowAnywhere.swift in Sources */,
 				27010F9520F7A79C00D5176A /* APIPaths.swift in Sources */,
+				2741186E2109C91C00065935 /* RangeSlider.swift in Sources */,
 				2743302020E414AE00DCD31A /* WinLoader.swift in Sources */,
 				2774081F2052D63800F6FD94 /* SlideZoom.swift in Sources */,
 				273CD66220D924DD00F291F8 /* Constraints.swift in Sources */,
 				273745A620D144E2009317AC /* ZoomExample.swift in Sources */,
 				275F48A620E5342F00CEA630 /* ViewLoader.swift in Sources */,
 				273945D020E237CC00F147BA /* Stepper.swift in Sources */,
+				275E84142105F199002C9C7F /* SineLoader.swift in Sources */,
 				274ACB1320BF0DDF00447D12 /* LabelController.swift in Sources */,
 				2718D4BD20525D3400C2F574 /* Controller.swift in Sources */,
 				274DD42D204D4F0E003F2517 /* ImageScroll.swift in Sources */,
